@@ -1,0 +1,52 @@
+html{
+    
+    background-color: rgb(255, 249, 253);
+}
+
+h2{
+    background-color: rgb(95, 10, 70);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+.card{
+    display: flex;
+    align-items: flex-end;
+}
+.mina {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+b{
+
+    color: #ffffff;
+    font-style: italic;
+    font-size: 23px;
+
+}
+
+body{ 
+
+    background-color: rgb(95, 10, 70);
+}
+
+footer{
+    background-color:white;
+    flood-color: aqua;
+    color: black;
+    
+}
+
+p{
+    color: white;
+}
+
+h3
+{
+    color: white;
+}
+

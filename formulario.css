@@ -1,0 +1,31 @@
+
+
+ 
+  
+   fieldset {
+      display: grid;
+      grid-template-columns: 100px 100px 100px 1fr ;
+      grid-template-rows: 100px;
+      grid-column-gap: 100px;
+   }
+  
+  
+   form {
+      background-color: #07063f;
+   
+   }
+  
+   @media screen and (min-width: 400px)  {
+  
+      form {
+  
+        background-color: rgb(95, 10, 70);
+  
+      }  
+   }
+
+
+
+
+
+ 
