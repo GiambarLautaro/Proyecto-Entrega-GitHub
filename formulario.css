@@ -1,5 +1,7 @@
 
-
+html{
+   background-color: #f6f8ff;
+}
  
   
    fieldset {
@@ -11,18 +13,16 @@
   
   
    form {
-      background-color: #07063f;
+      background-color: #efca08;
+      margin: 0;
    
    }
-  
-   @media screen and (min-width: 400px)  {
-  
-      form {
-  
-        background-color: rgb(95, 10, 70);
-  
-      }  
+
+   footer{
+      margin: 0;
+      background-color: #798071;
    }
+  
 
 
 
