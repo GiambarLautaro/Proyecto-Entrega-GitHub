@@ -18,7 +18,21 @@ body {
 nav{
     background-color: var(--font-primary);
     padding-left: 300px;
+    transition
+
 }
+
+nav :hover {
+    color: #f6f8ff;
+}
+
+nav a {
+
+    text-decoration:none ;
+
+}
+
+
 .container {
     height: 800px;
     background: url(./imaginesforex/istockphoto-1272926047-612x612.jpg) no-repeat center center fixed;
@@ -39,31 +53,52 @@ table b{
     font-size: 20px;    
 }
 
-h1{
+
+h1 {
+    font-size: 40px;
+    color: #623B5A;
+    font-style: italic;
     margin: 0;
-    background-color: #f6f8ff;
-    height: 90px;
-    font-size: 80px;
-    font-style: oblique;
-    padding: 5px 5px 5px 15px;
+    padding: 5px 0 10px 15px;
+    
+    
+}
+
+@keyframes desplazamiento {
+    0%{
+       position: relative;
+       left: 0;
+    }
+
+    50% {color: #623B5A;
+
+    }
+
+    100% {
+        color: black;
+        left: 80%
+    }
+
 }
 
 h2 {
-    margin: 0;
-    background-color: white;
-    font-style: italic;
-    padding: 5px 0 10px 15px;
-}
+    padding-right: 10px;
+    color: #efca08;
+    font-size: 50px;
+    font-style:initial;
+    animation-name: desplazamiento;
+    animation-duration: 10s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 
-#capital {
-    background-color: white;
-    font-style: italic;
+    
 }
 
 h3 { 
+
+    font-style: italic;
     margin: 0;
-    background-color: #07063f;
-    color: white; 
+    color: #623B5A; 
     padding: 0 0 5px 15px;  
 }
 
@@ -79,13 +114,14 @@ h3 b {
 }
 
 [class="methods"] {
-    background-color: #07063f;
-    color: white;
+    background-color:  #efca08;
+    color: black;
     padding-right: 310px;
     border-width: 5px;
     border-radius: 10px;
     margin: 0;
     font-size: 30px;
+    font-style: italic;
     padding-left: 300px;
     text-align: center;
 }
