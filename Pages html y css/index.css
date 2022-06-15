@@ -1,7 +1,4 @@
-:root{
---font-primary:#efca08;
 
-}
 
 *{
     padding: 0;
@@ -15,12 +12,16 @@ body {
     
 }
 
+
+
+
+
 nav{
     background-color: var(--font-primary);
     padding-left: 300px;
     transition
 
-}
+} */
 
 nav :hover {
     color: #f6f8ff;
@@ -36,11 +37,11 @@ nav a {
 .container {
     height: 800px;
     background: url(./imaginesforex/istockphoto-1272926047-612x612.jpg) no-repeat center center fixed;
-    /* background-image: url(./imaginesforex/istockphoto-1272926047-612x612.jpg) no-repeat center center fixed; */
-  background-position: center;
+    background-image: url(./imaginesforex/istockphoto-1272926047-612x612.jpg) no-repeat center center fixed;
+  /* /* background-position: center; */
   background-size: cover;
     width: 100%;
-}
+} */
 .container h1 h2{
 position: relative;
 top: 200px;
@@ -139,4 +140,3 @@ footer{
     font-size: medium;
     font-weight: 700;
 }
-
