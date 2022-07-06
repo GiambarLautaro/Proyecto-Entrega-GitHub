@@ -1,0 +1,153 @@
+@mixin estilo-letra {
+
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px 0 10px 15px;
+    
+}
+
+
+
+nav {
+    background-color: #ffc107; 
+    font-size: 23px; 
+     
+}
+
+nav:hover {
+    color: #f6f8ff;
+}
+
+
+
+.navbar-logo {
+    padding-left: 30px;
+    
+}
+
+
+
+
+.nav-link {
+
+    margin-left: 100px;
+    position: relative;
+    text-decoration: none;
+    
+     
+}
+
+
+
+.nav-link::after {
+     
+    content: "";
+    position: absolute;
+    background-color: #623b5a;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+transition: 0.3s;
+
+}
+
+.nav-link:hover {
+    text-color: #f6f8ff;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+}
+
+
+
+ .journey{
+
+    margin-top: 5em;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+
+h2 {
+     
+@include estilo-letra()
+
+}
+
+card-text1 {
+
+color: black;
+
+}
+
+.card-text2 {
+
+    @include estilo-letra()
+}
+
+
+
+
+.card-header {
+
+    @include estilo-letra()
+    
+}
+
+.container-fluid {
+
+    @extend h2
+
+}
+
+.card-footercolor {
+
+    background-color: #798071;
+}
+
+.card-footerleters {
+    color: #f6f8ff;
+}
+
+.contact {
+    @include estilo-letra()
+}
+
+
+
+// Progrmas
+
+.card-bodyprograms {
+
+    margin-top: 170px;
+}
+
+.prices {
+
+    margin-top: 50px;
+}
+
+.phrase {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+// Help
+
+form {
+
+margin-top: 200px;
+
+}
+
+// TestimonialsAndResources
+
+.card-testimony {
+
+    margin-top: 300px;
+}
